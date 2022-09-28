@@ -37897,17 +37897,23 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 20px 0 20px auto;
+  margin: 20px auto 20px -12px;
 }
 
 .u-header .u-nav-1 {
+  font-weight: 700;
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1rem;
 }
-
+@media (max-width: 1199px) {
+  .u-header .u-menu-1 {
+    margin-left: -12px;
+  }
+}
 
 
 

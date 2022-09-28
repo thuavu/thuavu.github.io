@@ -1148,13 +1148,18 @@
   left: 10px;
   width: 40px;
   height: 40px;
+  background-image: none;
+  padding: 10px;
 }
 
 .u-section-5 .u-carousel-control-2 {
   position: absolute;
-  right: 10px;
   width: 40px;
   height: 40px;
+  background-image: none;
+  left: auto;
+  right: 10px;
+  padding: 10px;
 }
 
 @media (max-width: 1199px) {
