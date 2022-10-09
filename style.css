@@ -56,7 +56,7 @@ p{
 }
 
 .img-top{
-    width: 400px;
+    width: 350px;
     clip-path: circle();
 }
 
@@ -259,7 +259,7 @@ section{
 
 /** Art section **/
 .carousel-art{
-    width: 40em;
+    width: 50vw;
     height: 30em;
 }
   
@@ -291,20 +291,20 @@ section{
 
 .overlay-art-text{
     opacity: 100%;
-    font-size: 1.8vw;
+    font-size: 0.6em;
 }
 
 .art-button {
     background-color: #C33157; 
     border: none;
     color: #131316;
-    padding: 1.2vw;
+    padding: 0.8em;
     text-align: center;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 0.5em;
     display: inline-block;
-    margin: 1.5vw;
-    border-radius: 2vh;
+    margin: 0.8em;
+    border-radius: 0.5em;
     transition-duration: 0.3s;
     cursor: pointer;
 }
@@ -312,7 +312,7 @@ section{
 .art-button1 {
     background-color: #131316; 
     color: white; 
-    border: 0.3vw solid #C33157;
+    border: 0.2em solid #C33157;
 }
 
 .art-button1:hover {
