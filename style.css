@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+body{
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 6vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*color: #C33157;*/
+}
+
+h2{
+    font-size: 4vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1vh;
+    font-weight: bold;
+}
+
+p{
+    font-size: 3vh;
+}
+
+/** Top Logo **/
+
+
+@media screen and (min-width: 400px) {
+    
+}
+
+#div-top{
+    padding-top: 10em;
+    padding-bottom: 25em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.img-top{
+    width: 400px;
+    clip-path: circle();
+}
+
+.top-downArrow{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    padding-top: 10em;
+    
+}
+
+/** Nav Bar **/
+#main-nav {
+    position: relative;
+ }
+
+
+.navbar-header{
+    place-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .nav-link{
+    color: white;
+    text-decoration: none;
+    display:inline;
+    margin: 1em;
+    font-size: 1rem;
+    
+}
+
+nav .nav-link:hover {
+    color: white;
+    font-weight: 6em;
+    padding: 1rem;
+    background-color: #C33157;
+}
+
+#main-nav.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.navbarOffsetMargin {
+    padding-top: 45px;
+}
+
+/** Scroll down fade in and out **/
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 90vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 3s;
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+.show{
+    opacity: 1;
+}
+
+/* Section background */
+.secBackGround{
+    background-color: #C33157;
+}
+
+/* Rounded images */
+.roundImg{
+    clip-path: circle();
+    width: auto;
+    height: 30vh;
+}
+
+
+
+/** Slideshow **/
+.carousel{
+    width: 80vw;
+    height: 70vh;
+}
+
+.carosel-img{
+    padding-top: 10vh;
+    width: 60%;
+    height: auto;
+}
+
+.carousel-p{
+    font-size: 2vh;
+}
+
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+
+.slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.carosel-text{
+    margin-top: 10%;
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 2em;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+
+    border-radius: 0.25em;
+    border: 0.3vw solid #C33157;
+}
+
+.carousel-button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+
+    background-color: #C33157;
+    font-weight: 6vh;
+}
+
+.carousel-button.prev {
+    left: 1rem;
+}
+
+.carousel-button.next {
+    right: 1rem;
+}
+
+.button {
+    background-color: #C33157; 
+    border: none;
+    color: #131316;
+    padding: 1.2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    display: inline-block;
+    margin: 1.5vw;
+    border-radius: 2vh;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #131316; 
+    color: white; 
+    border: 0.3em solid #C33157;
+}
+
+.button1:hover {
+    background-color: #C33157;
+    color: white;
+    font-weight: 4;
+}
+
+/** Art section **/
+.carousel-art{
+    width: 40em;
+    height: 30em;
+}
+  
+.img-art{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay-art{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    
+    opacity: 90%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    padding-top: 3vh;
+}
+  
+.carousel-art:hover .overlay-art{
+    bottom: 0;
+    height: 40%;
+    background-color: #131316;
+}
+
+.overlay-art-text{
+    opacity: 100%;
+    font-size: 1.8vw;
+}
+
+.art-button {
+    background-color: #C33157; 
+    border: none;
+    color: #131316;
+    padding: 1.2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2vw;
+    display: inline-block;
+    margin: 1.5vw;
+    border-radius: 2vh;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.art-button1 {
+    background-color: #131316; 
+    color: white; 
+    border: 0.3vw solid #C33157;
+}
+
+.art-button1:hover {
+    background-color: #C33157;
+    color: white;
+    font-weight: 4;
+}
+
+
+/** Work Section **/
+.row{
+    margin: 2rem;
+}
+
+.work-right-text{
+    margin-top: 4rem;
+    font-size: 2vw;
+}
+
+.work-left-text{
+    text-align: left;
+    font-size: 1.5vw;
+    overflow: auto;
+    background-color: #C33157;
+}
+
+/*@media screen and (min-width: 320px) {
+    .work-left-text {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+}*/
+@media screen and (min-width: 1000px) {
+    .work-left-text {
+        font-size: 22px;
+    }
+}
+
+/** Contacts **/
+.contact-row{
+    place-items: center;
+    align-content: center;
+}
+
+.contact-col{
+    float: left;
+    margin: 2vw;
+}
+
+.contact-img{
+    width: 8vw;
+    height: auto;
+    padding: 1vw;
+    background-color: #D4D3D2;
+    clip-path: circle();
+}
+
+
+/** Footer **/
+footer{
+    place-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 2rem;
+}
+  
