@@ -1,11 +1,11 @@
 <h2>Welcome to my portfolio, feel free to browse it</h2>
 
 <h3 align="left">Portfolio:</h3>
-<a href="https://thuavu.github.io/" target="blank"><img align="center" src="images/thu-logo.png" alt="thuavu" height="50" width="50" /></a>
+<a href="https://thuavu.github.io/" target="_blank"><img align="center" src="images/thu-logo.png" alt="thuavu" height="50" width="50" /></a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/thuavu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thuavu" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/thuavu" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thuavu" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
