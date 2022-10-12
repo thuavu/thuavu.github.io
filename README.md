@@ -1,4 +1,7 @@
-<h3 align="center">A passionate frontend developer from India</h3>
+<h2>Welcome to my portfolio, feel free to browse it</h2>
+
+<h3 align="left">Portfolio:</h3>
+<a href="https://thuavu.github.io/" target="blank"><img align="center" src="images/thu-logo.png" alt="thuavu" height="50" width="50" /></a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
