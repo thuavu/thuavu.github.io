@@ -1,4 +1,4 @@
-<h2>Welcome to my portfolio, feel free to browse it</h2>
+This is my portfolio, feel free to browse it!
 
 <h3 align="left">Portfolio:</h3>
 <a href="https://thuavu.github.io/" target="_blank"><img align="center" src="images/thu-logo.png" alt="thuavu" height="50" width="50" /></a>
