@@ -113,8 +113,8 @@ section{
     place-items: center;
     align-content: center;
     min-height: 90vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     padding-top: 15em;
     padding-bottom: 15em;
     text-align: center;
@@ -122,7 +122,7 @@ section{
 
 .hidden{
     opacity: 0;
-    transition: all 3s;
+    transition: all 5s;
 }
 
 @media(prefers-reduced-motion){
@@ -151,7 +151,7 @@ section{
 
 /** Slideshow **/
 .carousel{
-    width: 80vw;
+    width: 70vw;
     height: 70vh;
 }
 
@@ -219,7 +219,7 @@ section{
     background-color: rgba(0, 0, 0, .2);
 
     background-color: #C33157;
-    font-weight: 6vh;
+    font-weight: lighter;
 }
 
 .carousel-button.prev {
@@ -334,7 +334,7 @@ section{
 
 .work-left-text{
     text-align: left;
-    font-size: 1.5vw;
+    /*font-size: 1.5vw;*/
     overflow: auto;
     background-color: #C33157;
 }
